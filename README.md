@@ -8,3 +8,14 @@ Tableau is the widely used data analytics and visualization tool that many consi
 
 Contains the Superstore dataset in form of excel file.
 The data is that of a United States’ Superstore. It contains information about products, sales, profits, and so on we  can use to identify key areas for improvement within this fictitious company.
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------
