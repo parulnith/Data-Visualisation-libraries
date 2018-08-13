@@ -7,6 +7,4 @@ Tableau is the widely used data analytics and visualization tool that many consi
 ### 1. Data Visualisation with Tableau
 
 Contains the Superstore dataset in form of excel file.
-
-### About the Data
 The data is that of a United States’ Superstore. It contains information about products, sales, profits, and so on we  can use to identify key areas for improvement within this fictitious company.
