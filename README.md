@@ -64,7 +64,7 @@ Depending upon the choice of product, download the software on to the computer. 
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/installation.png)
 ***
 
-## <a name="getting-started"></a>1. Getting Started
+## <a name="getting-started"></a>2. Getting Started
 
 In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
 
