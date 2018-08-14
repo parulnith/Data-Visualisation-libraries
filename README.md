@@ -20,11 +20,5 @@ The data is that of a United States’ Superstore. It contains information about
 
 ----------------------------------------------------------------------------
 
-Tableau Software](https://www.tableau.com/)  is an American computer software company headquartered in Seattle, WA, USA. It generates interactive data visualization products which focused on BI. The company was established at Stanford University’s Department of Computer Science between 1997 and 2002.
 
-The main products offered by  tableau are:
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
-
-###**Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
 
