@@ -1,23 +1,23 @@
-
-# <a name="introduction-to-tableau"></a>1.Introduction to Tableau
-
-## Overview
-
-[Tableau Software](https://www.tableau.com/)  is an American computer software company headquartered in Seattle, WA, USA. It generates interactive data visualization products which focused on BI. The company was established at Stanford University’s Department of Computer Science between 1997 and 2002.
-
-The main products offered by  tableau are:
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
-
-### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
-
-> ### In this tutorial, we will be working with Tableau Desktop.
+# <a name="getting-started"></a>2.Getting Started
 
 
-## Installation
+In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
 
-Depending upon the choice of product, download the software on to the computer. In this tutorial, we will be working with Tableau Desktop version. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
+## Tableau Workspace
 
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)
+The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
+
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)
+
+
+## Connecting to a Data Source
+
+Before we can build a view and analyze our data, Tableau must be first connected to the intended data. Tableau supports connection to a wide variety of data, stored in a variety of places. For example, your data might be stored on your computer in a spreadsheet or a text file, or in a big data, relational, or cube (multidimensional) database on a server in your enterprise. Or, you might connect to public domain data available on the web such as U.S. Census Bureau information, or to a cloud database source, such as Google Analytics, Amazon Redshift, or Salesforce.
+
+When you launch Tableau Desktop, the data connectors that are available to you are listed on the **Connect** pane, which is the left pane on the **Start page**. File types are listed first, then common server types, or servers that you've recently connected to. Click **More** to see the complete list of data connectors you can use. Under **Open**, you can open workbooks that you have already created. Under **Sample Workbooks**, view sample dashboards and worksheets that come with Tableau Desktop. Under **Discover**, find additional resources like video tutorials, forums, or the “Viz of the week” to get ideas about what you can build.
+
+
+### `Hands On `     
+
+	  
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
