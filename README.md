@@ -1,4 +1,4 @@
-#Data Visualisation with Tableau
+# Data Visualisation with Tableau
 
 #### Our goal as Data Analysts is to arrange the insights of our data in such a way that everybody who sees them is able to clearly understand their implications, or their truths and how to act on them.
 
@@ -7,8 +7,8 @@
 #### In this tutorial, we will learn how to analyze and display data using Tableau and make better, more data-driven decisions. This tutorial will cover the following topicsIntroduction to Tableau
 
 * #### [Introduction to Tableau](#introduction-to-tableau)
- * Overview
- * Installation
+  * Overview
+  * Installation
 
 * #### Getting Started
  * Tableau Workspace
