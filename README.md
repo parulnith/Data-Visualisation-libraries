@@ -1,31 +1,35 @@
-## Creating a View
+## Refining the View
 
-We will start by creating a simple chart. In this section, we will get to know our data and will start to ask questions about the data to gain insights There are some important terms that we will encounter in this section.
 
-| ` Dimension`      | `Measures`          | `Aggregation`|
-| -------------     |:-------------:      |  -----------:|
-| Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.     | Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension). | Row-level data rolled up to a higher category, such as the sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with. |
+Let us delve deeper and try to find out more insights regarding which products drive more sales. Let's start by adding the product categories to look at sales totals in a different way.
 
 ###  `Steps`
 
-> 1. Go to the worksheet. Click on the tab `Sheet 1` at the bottom left of the tableau workspace.
-> 
->   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)
-> 
-> 2. Once, you are in the worksheet, from Dimensions in the Data pane, drag Order Date to the Columns shelf.
+
+> 1. From Dimensions, drag `Category` to the Columns shelf and place it to the right of `YEAR(Order Date)`.The view updates to a bar chart.By adding a second discrete dimension to the view, data changes into discrete chunks instead of continuous. This creates a bar chart and shows the overall `Sales` for each `Product` category by year.
 >
->   *When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a cross-tab (like a spreadsheet) and displays the sales totals for each year.*
+    > `Learn More` 
+    >
+    >  1. To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017:
+    >
+    >  ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
+    > 2. To add data point information as labels to your view, click `Show Mark Labels` on the toolbar. 
+    > 
+    >   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
+    > 
+    > 3. To display the bar chart horizontally instead of vertically, click Swap on the toolbar.
+    >
+    >   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
+
+
 > 
-> 3. From Measures, drag Sales to the Rows shelf.
->
->   *Tableau generates a chart with sales rolled up as a sum (aggregated). Total aggregated sales for each year by order date is displayed.Tableau always generates a line chart for a view that includes time (in this case Order Date)*
-
-
-
+> 2. The view above nicely shows `sales` by `category` i.e furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a very broad category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
+> 
+> #### **To help answer that question, we decide to look at products by `sub-category` to see which items are the big sellers. For example, for the Furniture category, you want to see details about   bookcases, chairs, furnishings, and tables. Double-click or drag the Sub-Category dimension to the Columns shelf.**
+ 
+> #### **The sub-category is another discrete field. It creates another header at the bottom of the view and shows a bar for each s`ub-category` (68 marks) broken down by category and year. However, it is a lot of data to visually make sense of. In the next section, we will learn about filters, color and other ways to make the view more comprehensible.**
 
 ### `Hands On `  
 
-![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)
-
-#### *This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Let us see what else you can find out.*
+![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)
 
