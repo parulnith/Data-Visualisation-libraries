@@ -1,45 +1,57 @@
-# <a name="dashboard"></a>5. Dashboard
+# <a name="story"></a>6. Story
 
+#### A dashboard is a cool feature but tableau also offers us to showcase our results in presentation mode in form of stories about which we will discuss in this section.
 
-#### **A dashboard is a collection of several views, enabling one to compare a variety of data simultaneously.**
-
-## Creating a Dashboard
-
-### `Steps`
- 
-> 1. Click the `New dashboard` button.
-> 2. Drag `Sales in the South` to the empty dashboard
-> 3. Drag `Profit Map` to the dashboard, and drop it on top of the Sales in the South view. Both views can be seen at once. To be able to present data in a manner so that others can understand it we can arrange the dashboard to our liking.
-> 4. On Sales in the South, right-click in the column area under the `Region `column header, and clear `Show` Header. Repeat the same for `Category` row header. This helps to show only what is needed and hiding the unnecessary information.
-> 5. Right-click the `Profit Map` title and select `Hide Title`. Repeat the same for `Sales in the South` view.
-> 6. Select the first `Sub-Category` filter card on the right side of your view, and at the top of the card, click the `Remove` icon. Repeat this step for the second `Sub-Category` filter card and one of the `Year of Order Date` filter cards. Click the drop-down arrow at the top of the `Year of Order Date` filter, and select `Single Value (Slider)`.Now let the magic unfold. Try selecting different years on the Year of Order Date filter and see how the data is quickly filtered to show that state performance varies year by year. 
-> 7. Drag the `SUM(Profit)` filter and drag it at the bottom of the dashboard below Sales in South.
-
-### `Hands On`
- 
- ![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/creating%20dashboard.gif)  
-    
-
-
-## Adding Interactiveness 
-
-#### In order to make the dashboard more interactive like viewing which sub-categories are profitable in specific states, few changes need to be done.
-
+## Building a Story 
 
 ### `Steps`
 
-> 1. Select `Profit Map` in the dashboard, and click the `Use as filter` icon  in the upper right-hand corner
-> 2. Now if we select any state in the map, the Sales in the `South chart` updates to show just the sub-category sales.
-> 3. Select the `Year of Order Date` filter, click its drop-down arrow, and select `Apply to Worksheets > Selected Worksheets`.
-> 4. In the `Apply Filter to Worksheets` dialog box, select `All` in the dashboard, and then click `OK`. This is done in order to apply the filter to all worksheets in the dashboard that use this same data source.
-> 5. Now explore and experiment. In the viz. below we will filter `Sales in the South` to only items sold in North Carolina, and then explore year by year profit.
-> 6. Rename the Dashboard to `Regional Sales and Profit`.
+> 1. Click the `New story` button.
+> 2. From the Story pane on the left, drag the `Sales in the South` worksheet onto your view.
+> 3. Edit the text in the gray box above the worksheet. This is the caption. Name it as `Sales and profit by year`.
+> 4. Stories are quite specific. Here we will tell a story about selling machines in North Carolina. In the Story pane, click `Duplicate` to duplicate the first caption.
+> 5. In the `Sub-Category`, filter `select` only `Machines`. This helps to gauge sales and profit of machines by year.
+> 6. Rename the caption to `Machine sales and profit by year`.
+
+### `Hands On`
+
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Story/Buildign%20a%20story.gif)
+
+
+## Making a Conclusion 
+
+#### It is clear that machines in North Carolina is leading to loss of profit. However, this cannot be demonstrated by looking at Profit and Sales on the whole. For thi,s we need regional Profit.
+
+### `Steps`
+> 1. To see how Profit varies in North Carolina with years, simply Duplicate the Regional Profit dashboard focused on North Carolina.
+> 2. Drag the dashboard `Regional Sales and Profit` onto the canvas.
+> 3. Caption it as `Low performing items in the South`.
+> 4. Select `Duplicate` to Create another story point with your Regional Profit dashboard. Select North Carolina on the bar chart.
+> 5. Select All the years.
+> 6. Add a caption, for example, `Profit in NC, 2014-2016`.
+> 7. Select any year like 2014. Add a caption, for example, `Profit in NC, 2014` and then click Duplicate. Repeat the same for all the remaining years.
+
 
 
 ### `Hands On`
-    
-![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/adding%20interactiveness.gif)   
+
+![Alt Text]()
+
+#### Now we will have an idea of which products were introduced to the North Carolina market when, and how poorly they performed. Not only have we identified a way to address negative profit, but have also successfully managed to back it with data. This is the advantage of Story in Tableau.
 
 
-#### **Thus, selling machines in the North Carolina did not bring any profits to the company.** 
+# <a name="saving"></a>7. Saving the work
 
+## Tableau Desktop 
+
+To save a Tableau workbook locally,  Select File > Save. Specify the workbook file name in the `Save As `dialog box. Tableau saves the file with the .twb extension by default.
+
+## Tableau Public
+With Tableau Public all the views and data is made public and anybody on the internet has access to it. `Select Server > Tableau Public > Save to Tableau Public` and enter the credentials.
+
+## [Tableau Server](https://www.tableau.com/products/server)
+In case the data is confidential and the story needs to be shared with the entire team, Tableau Server comes in handy.To publish a story to Tableau Server,  Select `Select Server > Publish Workbook` or `click Share` on the toolbar. But make sure to create an account first.
+
+---
+### That's all we need to create a good visualization in Tableau although, one might find doing a lot more revising in each stage than we did here. So with experimentation and practise, tableau becomes a lot more familiar and will unleash amazing features to help us analyze and present data. Please comment below in case of any queries or questions and Happy Visualising. 
+---
