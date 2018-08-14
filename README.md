@@ -1,91 +1,29 @@
-# Data Visualisation with Tableau
-
-#### Our goal as Data Analysts is to arrange the insights of our data in such a way that everybody who sees them is able to clearly understand their implications, or their truths and how to act on them.
-
-#### Tableau is the widely used data analytics and visualization tool that many consider indispensable for data-science-related work. Its drag-and-drop interface makes it easy to sort, compare, and analyze data from multiple sources, including Excel, SQL Server, and cloud-based data repositories.
-
-#### In this tutorial, we will learn how to analyze and display data using Tableau and make better, more data-driven decisions. This tutorial will cover the following topicsIntroduction to Tableau
-
-* #### [Introduction to Tableau](#introduction-to-tableau)
-  * Overview
-  * Installation
-
-* #### [Getting Started](#getting-started)
-  * Tableau Workspace
-  * Connecting  to a Data Source 
-  * Creating a view
-  * Refining the view
-
-* #### Emphasize the Results 
-  * Adding Filters to the view
-  * Adding Colors to the view
-  * Key Findings
-
-* #### Map View
-  * Building a Map View
-  * Getting into details
-  *  Identifying the Key points
-
-* #### Dashboard
-  * Creating a dashboard
-  * Adding Interactiveness 
-
-* #### Story
-  * Building a Story
-  * Making a Conclusion
-
-* #### Saving the Work
-
----
+## Getting into the details
 
 
+#### **Maps are great for visualizing the data broadly. In the last step, we discovered that we discovered that Tennessee, North Carolina, and Florida have a negative profit. In this section let us draw a Bar chart to explore the reason for the negative profit.**
 
-## <a name="introduction-to-tableau"></a>1.Introduction to Tableau
+### `Steps`
 
-### Overview
-
-[Tableau Software](https://www.tableau.com/)  is an American computer software company headquartered in Seattle, WA, USA. It generates interactive data visualization products which focused on BI. The company was established at Stanford University’s Department of Computer Science between 1997 and 2002.
-
-The main products offered by  tableau are:
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
-
-
-### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
-> ### In this tutorial, we will be working with Tableau Desktop.
-
-
-### Installation
-
-Depending upon the choice of product, download the software on to the computer. In this tutorial, we will be working with Tableau Desktop version. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)
-
-***
-
-## <a name="getting-started"></a>2.Getting Started
-
-In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
-
-### Tableau Workspace
-
-The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
-
-
-
-> ## Hands On
-
-![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
-
-
-
-
-
-
-
-
-
-
-
+> 1. Duplicate the Profit Map worksheet and name it Negative Profit Bar Chart.
+> 2. In the Negative Profit Bar Chart worksheet, click Show Me and then select horizontal bars. Show Me highlights different chart types based on the data you've added to your view.
+> 3. Multi-select the bars on the left by clicking and dragging your cursor across the bars between Tennessee, North Carolina, and Florida. On the tooltip that appears, select Keep Only to focus on those three states.
+> 
+>    >`Learn More`  
+>    > **Creating Hierarchies**   
+>    > Hierarchies come in handy when we want to group similar fields so that we can quickly drill down between levels in the viz.
+>     >
+>     > 1. In the Data pane, drag a field and drop it directly on top of another field or right-click the field and select 
+>     > 2. Drag any additional fields into the hierarchy. You can also re-order fields in the hierarchy by dragging them to a new position.
+>     > In the current viz. we will create the following hierarchies: Location, Order and Product.  
+>     > ![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/Hierarchy.gif)
+>     >
+>     > 4. On the Rows Shelf, click the plus icon on the `State `Field to drill-down to the `City` level of detail
+>     > 5. That's a lot of data. We can use `N-Filter` to filter to reveal the poorest performers. From the Data pane, drag `City` to the Filters shelf. Click By field and then Click the `Top` drop-down and select `Bottom` to reveal the poorest performers. Type 5 in the text box to show the bottom 5 performers in the data set.
+>     >
+>     >  __We now see that Jacksonville and Miami, Florida; Burlington, North Carolina; and Knoxville and  Memphis, Tennessee are the poorest performing cities by profit.
+There is one other mark in the view—Jacksonville, North Carolina—that doesn't belong, since it has profitable sales. This means there is an issue in the filter we applied. We will take the help of Tableau Order of Operations.__  
+>     > 6. On the Filters shelf, right-click the Inclusions (Country, State) (Country, State) set and select Add to Context. We find that now Concord, North Carolina appears in view while Miami, Florida disappears which makes sense.  
+>    > 7. But Jacksonville, North Carolina is still in the view which is incorrect. On the Rows shelf, click the plus icon on City to drill down to the Postal Code level of detail. Right-click the postal code for Jacksonville, NC, 28540, and then select Exclude.  
+>     > 8. Drag Postal Code of the Rows shelf. This is the final view.  
+>     >
