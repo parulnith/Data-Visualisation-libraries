@@ -9,10 +9,10 @@ Let us delve deeper and try to find out more insights regarding which products d
 > 1. From Dimensions, drag `Category` to the Columns shelf and place it to the right of `YEAR(Order Date)`.The view updates to a bar chart.By adding a second discrete dimension to the view, data changes into discrete chunks instead of continuous. This creates a bar chart and shows the overall `Sales` for each `Product` category by year.
 >
 >   `Learn More` 
-    
-    1. To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017:
-    
-     ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
+>    
+>   1. To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017:
+>    
+>    ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
      2. To add data point information as labels to your view, click `Show Mark Labels` on the toolbar. 
     
        ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
