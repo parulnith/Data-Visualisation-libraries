@@ -14,11 +14,11 @@ We will start by creating a simple chart. In this section, we will get to know o
 > 
 > 2. Once, you are in the worksheet, from Dimensions in the Data pane, drag Order Date to the Columns shelf.
 >
- *When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a cross-tab (like a spreadsheet) and displays the sales totals for each year.*
+> *When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a cross-tab (like a spreadsheet) and displays the sales totals for each year.*
 > 
 > 3. From Measures, drag Sales to the Rows shelf.
 >
-*Tableau generates a chart with sales rolled up as a sum (aggregated). Total aggregated sales for each year by order date is displayed.Tableau always generates a line chart for a view that includes time (in this case Order Date)*
+> *Tableau generates a chart with sales rolled up as a sum (aggregated). Total aggregated sales for each year by order date is displayed.Tableau always generates a line chart for a view that includes time (in this case Order Date)*
 
 
 
