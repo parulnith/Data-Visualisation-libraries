@@ -77,7 +77,7 @@ The Tableau workspace consists of menus, a toolbar, the Data pane, cards and she
 
 > ## Hands On
 
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/tree/master/%20images%20and%20gifs/getting%20started)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
 
 
 
