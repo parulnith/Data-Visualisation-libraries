@@ -1,45 +1,31 @@
-# <a name="getting-started"></a>2.Getting Started
+## Creating a View
 
+We will start by creating a simple chart. In this section, we will get to know our data and will start to ask questions about the data to gain insights There are some important terms that we will encounter in this section.
 
-In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
-
-## Tableau Workspace
-
-The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
-
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)
-
-
-## Connecting to a Data Source
-
-Before we can build a view and analyze our data, Tableau must be first connected to the intended data. Tableau supports connection to a wide variety of data, stored in a variety of places. For example, your data might be stored on your computer in a spreadsheet or a text file, or in a big data, relational, or cube (multidimensional) database on a server in your enterprise. Or, you might connect to public domain data available on the web such as U.S. Census Bureau information, or to a cloud database source, such as Google Analytics, Amazon Redshift, or Salesforce.
-
-When you launch Tableau Desktop, the data connectors that are available to you are listed on the `Connect` pane, which is the left pane on the `Start page`. File types are listed first, then common server types, or servers that you've recently connected to. Click `More` to see the complete list of data connectors you can use. Under `Open`, you can open workbooks that you have already created. Under `Sample Workbooks`, view sample dashboards and worksheets that come with Tableau Desktop. Under `Discover`, find additional resources like video tutorials, forums, or the “Viz of the week” to get ideas about what you can build.
-
-
-### `Hands On `     
-
-	  
-![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
-
-For supported files and databases, Tableau provides built-in connectors that are built for and optimized for those types of data. If your file or database type is listed under Connect, use this named connector to connect to your data. If your file or database type is not listed, you might have the option of creating your own connection using Other Databases (ODBC) or Web Data Connector. Tableau provides limited support for connections that you create using either of these options
-
-
-#### Connecting to the [Sample-Superstore data set](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls)
-
-For convenience, let’s use the sample data set that comes with Tableau installation named sample superstore.xls.However, in this tutorial, we will download it from here and load it as an excel sheet. 
-The data is that of a United States’ Superstore. It contains information about products, sales, profits, and so on that you can use to identify key areas for improvement within this fictitious company.
+| ` Dimension`      | `Measures`          | `Aggregation`|
+| -------------     |:-------------:      |  -----------:|
+| Dimensions are qualitative data, such as a name or date. By default, Tableau automatically classifies data that contains qualitative or categorical information as a dimension, for example, any field with text or date values. These fields generally appear as column headers for rows of data, such as Customer Name or Order Date, and also define the level of granularity that shows in the view.     | Measures are quantitative numerical data. By default, Tableau treats any field containing this kind of data as a measure, for example, sales transactions or profit. Data that is classified as a measure can be aggregated based on a given dimension, for example, total sales (Measure) by region (Dimension). | Row-level data rolled up to a higher category, such as the sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with. |
 
 ###  `Steps`
 
-> 1. Import the Data into tableau workspace from the computer.
+> 1. Go to the worksheet. Click on the tab `Sheet 1` at the bottom left of the tableau workspace.
 > 
-> 2. Under the Sheets Tab, three sheets will become visible namely Orders, People, and Returns. However, we will focus only on Orders data. Double click on Orders Sheet and it opens up just like a spreadsheet.
-> 3. We observe the first three rows of data looks a bit different and is not in the desired format. Here we make use of Data Interpreter, also present under Sheets Tab. By clicking on it we get a nicely formatted sheet. If you wish to view the exact changes that it made, click on Review the results, and choose the Orders tab in the opened Excel sheet. it will show, it simply removed the erroneous data.
+>  ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)
+> 
+> 2. Once, you are in the worksheet, from Dimensions in the Data pane, drag Order Date to the Columns shelf.
+>
+ *When you drag Order Date to the columns shelf, Tableau creates a column for each year in your data set. Under each column is an Abc indicator. This indicates that you can drag text or numerical data here, like what you might see in an Excel spreadsheet. If you were to drag Sales to this area, Tableau creates a cross-tab (like a spreadsheet) and displays the sales totals for each year.*
+> 
+> 3. From Measures, drag Sales to the Rows shelf.
+>
+*Tableau generates a chart with sales rolled up as a sum (aggregated). Total aggregated sales for each year by order date is displayed.Tableau always generates a line chart for a view that includes time (in this case Order Date)*
+
+
 
 
 ### `Hands On `  
 
-![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)
 
+#### *This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Let us see what else you can find out.*
 
