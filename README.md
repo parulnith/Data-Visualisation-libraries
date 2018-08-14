@@ -10,7 +10,7 @@
   * Overview
   * Installation
 
-* #### Getting Started
+* #### [Getting Started](#getting-started)
   * Tableau Workspace
   * Connecting  to a Data Source 
   * Creating a view
@@ -57,14 +57,20 @@ The main products offered by  tableau are:
 > ### In this tutorial, we will be working with Tableau Desktop.
 
 
-
 ### Installation
 
 Depending upon the choice of product, download the software on to the computer. In this tutorial, we will be working with Tableau Desktop version. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
 
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/installation.png)
+***
 
+## <a name="getting-started"></a>1. Getting Started
 
+In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
+
+### Tableau Workspace
+
+The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
 
 
 
