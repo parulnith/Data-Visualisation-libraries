@@ -61,7 +61,8 @@ The main products offered by  tableau are:
 
 Depending upon the choice of product, download the software on to the computer. In this tutorial, we will be working with Tableau Desktop version. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
 
-![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/installation.png)
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)
+
 ***
 
 ## <a name="getting-started"></a>2. Getting Started
