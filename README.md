@@ -64,7 +64,6 @@ Depending upon the choice of product, download the software on to the computer. 
 
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/installation.png)
 
-***
 
 
 
@@ -76,7 +75,8 @@ Depending upon the choice of product, download the software on to the computer. 
 
 
 
-----------------------------------------------------------------------------
+
+
 
 
 
