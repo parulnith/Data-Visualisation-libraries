@@ -1,33 +1,32 @@
-## Refining the View
 
+# <a name="emphasise-the-results"></a>3.Emphasise the Results
 
-Let us delve deeper and try to find out more insights regarding which products drive more sales. Let's start by adding the product categories to look at sales totals in a different way.
+In this section, we will try to focus on specific results. Filters and colors are ways to add more focus to the details that interest us. 
+
+## Adding filters to the view
+
+Filters can be used to include or exclude values in the view. Here we try to add two simple filters to the worksheet to make it easier to look at product sales by sub-category for a specific year.
 
 ###  `Steps`
 
-
-> 1. From Dimensions, drag `Category` to the Columns shelf and place it to the right of `YEAR(Order Date)`.The view updates to a bar chart.By adding a second discrete dimension to the view, data changes into discrete chunks instead of continuous. This creates a bar chart and shows the overall `Sales` for each `Product` category by year.
->
->    > `Learn More` 
->
->    > 1. To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017: 
->    >
->    >   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)  
->    > 2. To add data point information as labels to your view, click `Show Mark Labels` on the toolbar. 
->    >
->    >   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
->    >
->    > 3. To display the bar chart horizontally instead of vertically, click Swap on the toolbar.
->    >
->    >   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
-
-> 2. The view above nicely shows `sales` by `category` i.e furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a very broad category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
+> In the Data pane, under Dimensions, right-click Order Date and select Show Filter.Repeat for Sub->category field also.  
+> ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/Adding%20filter.png)
 > 
-> #### **To help answer that question, we decide to look at products by `sub-category` to see which items are the big sellers. For example, for the Furniture category, you want to see details about   bookcases, chairs, furnishings, and tables. Double-click or drag the Sub-Category dimension to the Columns shelf.**
- 
-> #### **The sub-category is another discrete field. It creates another header at the bottom of the view and shows a bar for each `sub-category` (68 marks) broken down by category and year. However, it is a lot of data to visually make sense of. In the next section, we will learn about filters, color and other ways to make the view more comprehensible.**
+> #### **Filters are card types and can be moved around on the canvas by clicking on the filter and dragging it to another location in the view**
+> 
+
+## Adding colors to the view
+
+Colours can be helpful in the visual identification of a pattern.
+
+###  `Steps`
+> In the Data pane, under Measures, drag Profit to Color on the Marks card.
+> 
+> ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)
+> 
+> #### **It can be clearly seen that Bookcases, Tables and even machine contribute to negative profit i.e loss. A powerful insight.**
+> 
 
 ### `Hands On `  
-
-![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20filter%20and%20color.gif)
 
