@@ -11,28 +11,28 @@
   * Installation
 
 * #### Getting Started
- * Tableau Workspace
- * Connecting  to a Data Source 
- * Creating a view
- * Refining the view
+  * Tableau Workspace
+  * Connecting  to a Data Source 
+  * Creating a view
+  * Refining the view
 
 * #### Emphasize the Results 
- * Adding Filters to the view
- * Adding Colors to the view
- * Key Findings
+  * Adding Filters to the view
+  * Adding Colors to the view
+  * Key Findings
 
 * #### Map View
- * Building a Map View
- * Getting into details
- *  Identifying the Key points
+  * Building a Map View
+  * Getting into details
+  *  Identifying the Key points
 
 * #### Dashboard
- * Creating a dashboard
- * Adding Interactiveness 
+  * Creating a dashboard
+  * Adding Interactiveness 
 
 * #### Story
- * Building a Story
- * Making a Conclusion
+  * Building a Story
+  * Making a Conclusion
 
 * #### Saving the Work
 
@@ -50,15 +50,15 @@ The main products offered by  tableau are:
 
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
 
-###**Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
+### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
 
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Images/Introduction%20to%20tableau/Tableau%20Products.png)
 
-> ###In this tutorial, we will be working with Tableau Desktop.
+> ### In this tutorial, we will be working with Tableau Desktop.
 
 
 
-###Installation
+### Installation
 
 Depending upon the choice of product, download the software on to the computer. In this tutorial, we will be working with Tableau Desktop version. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
 
