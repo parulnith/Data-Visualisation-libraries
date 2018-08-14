@@ -40,7 +40,7 @@
 
 
 
-## <a name="introduction-to-tableau"></a>1. Introduction to Tableau
+## <a name="introduction-to-tableau"></a>1.Introduction to Tableau
 
 ### Overview
 
@@ -65,7 +65,7 @@ Depending upon the choice of product, download the software on to the computer. 
 
 ***
 
-## <a name="getting-started"></a>2. Getting Started
+## <a name="getting-started"></a>2.Getting Started
 
 In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
 
