@@ -43,20 +43,19 @@
     -   Tableau & SQL Server
 -   #### [8. Saving the Work](#saving)
     
+# <a name="introduction-to-tableau"></a>1.Introduction to Tableau
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#1introduction-to-tableau)1.Introduction to Tableau
-
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#overview)Overview
+## Overview
 
 [Tableau Software](https://www.tableau.com/)  is an American computer software company headquartered in Seattle, WA, USA. It generates interactive data visualization products which focused on BI. The company was established at Stanford University’s Department of Computer Science between 1997 and 2002.
 
-The main products offered by tableau are:  [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
+The main products offered by tableau are:  [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)]
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-desktop-tableau-public-and-tableau-online-all-offer-data-visual-creation-and-choice-depends-upon-the-type-of-work)**Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
+### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
 
 [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
 
-> ### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#in-this-tutorial-we-will-be-working-with-tableau-desktop)In this tutorial, we will be working with Tableau Desktop.
+> ### in-this-tutorial-we-will-be-working-with-tableau-desktop)In this tutorial, we will be working with Tableau Desktop.
 
 ## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#installation)Installation
 
