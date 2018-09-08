@@ -38,13 +38,12 @@
    * Building a Story
    * Making a Conclusion
 
-* #### [7. Saving the Work](#saving)
-
-* #### [8. Tableau integration with R, Python & SQL Server](#tableau_with_R,Python,SQL)
+* #### [7. Tableau integration with R, Python & SQL Server](#tableau_with_R,Python,SQL)
 	* Tableau & R
 	* Tableau & Python
 	* Tableau & SQL Server
 
+* #### [8. Saving the Work](#saving)
 
 
 # <a name="introduction-to-tableau"></a>1.Introduction to Tableau
