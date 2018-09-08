@@ -49,11 +49,13 @@
 
 [Tableau Software](https://www.tableau.com/)  is an American computer software company headquartered in Seattle, WA, USA. It generates interactive data visualization products which focused on BI. The company was established at Stanford University’s Department of Computer Science between 1997 and 2002.
 
-The main products offered by tableau are:  [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)]
+The main products offered by tableau are: 
+
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Product%20suite.png)
 
 ### **Tableau Desktop, Tableau Public, and Tableau Online**, all offer Data Visual Creation and choice depends upon the type of work
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
 
 > ### In this tutorial, we will be working with Tableau Desktop.
 
@@ -61,7 +63,7 @@ The main products offered by tableau are:  [![](https://github.com/parulnith/Dat
 
 Depending upon the choice of product, download the software on to the computer. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)]
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)
 
 
 # <a name="getting-started"></a>2.Getting Started
@@ -72,7 +74,7 @@ In this section, we will learn some basic operations in Tableau to get acquainte
 
 The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)]
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)
 
 ## Connecting to a Data Source
 
@@ -82,7 +84,7 @@ When you launch Tableau Desktop, the data connectors that are available to you a
 
 ### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)]
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
 
 For supported files and databases, Tableau provides built-in connectors that are built for and optimized for those types of data. If your file or database type is listed under Connect, use this named connector to connect to your data. If your file or database type is not listed, you might have the option of creating your own connection using Other Databases (ODBC) or Web Data Connector. Tableau provides limited support for connections that you create using either of these options
 
@@ -101,7 +103,7 @@ For convenience, let’s use the sample data set that comes with Tableau install
 
 ### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)]
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)
 
 ## Creating a View
 
@@ -123,7 +125,7 @@ Row-level data rolled up to a higher category, such as the sum of sales or total
 
 > 1.  Go to the worksheet. Click on the tab  `Sheet 1`  at the bottom left of the tableau workspace.
 > 
-> [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)]
+> ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)
 > 
 > 2.  Once, you are in the worksheet, from Dimensions in the Data pane, drag Order Date to the Columns shelf.
 > 
@@ -135,7 +137,7 @@ Row-level data rolled up to a higher category, such as the sum of sales or total
 
 ### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)]
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)
 
 #### _This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Let us see what else you can find out._
 
@@ -151,14 +153,14 @@ Let us delve deeper and try to find out more insights regarding which products d
 >     
 >     > 1.  To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017:
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)]
+>     > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
 >     > 2. To add data point information as labels to your view, click  `Show Mark Labels`  on the toolbar.
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)]
+>     > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
 >     > 
 >     > 3.  To display the bar chart horizontally instead of vertically, click Swap on the toolbar.
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)]
+>     > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
 >     
 
 > 2.  The view above nicely shows  `sales`  by  `category`  i.e furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a very broad category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
@@ -169,7 +171,7 @@ Let us delve deeper and try to find out more insights regarding which products d
 
 ### `Hands On`
 
-[![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)]
+![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)
 
 
 # <a name="emphasise-the-results"></a>3.Emphasise the Results
@@ -183,32 +185,33 @@ Filters can be used to include or exclude values in the view. Here we try to add
 
 ### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-3)`Steps`
 
-> In the Data pane, under Dimensions, right-click Order Date and select Show Filter.Repeat for Sub->category field also.  
-> [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/Adding%20filter.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/Adding%20filter.png)
+> In the Data pane, under Dimensions, right-click Order Date and select Show Filter.Repeat for Sub->category field also. 
+>
+> ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/Adding%20filter.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/Adding%20filter.png)
 > 
-> #### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#filters-are-card-types-and-can-be-moved-around-on-the-canvas-by-clicking-on-the-filter-and-dragging-it-to-another-location-in-the-view)**Filters are card types and can be moved around on the canvas by clicking on the filter and dragging it to another location in the view**
+> #### **Filters are card types and can be moved around on the canvas by clicking on the filter and dragging it to another location in the view**
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#adding-colors-to-the-view)Adding colors to the view
+## Adding colors to the view
 
 Colours can be helpful in the visual identification of a pattern.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-4)`Steps`
+### `Steps`
 
 > In the Data pane, under Measures, drag Profit to Color on the Marks card.
 > 
-> [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)
+> ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)
 > 
-> #### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#it-can-be-clearly-seen-that-bookcases-tables-and-even-machine-contribute-to-negative-profit-ie-loss-a-powerful-insight)**It can be clearly seen that Bookcases, Tables and even machine contribute to negative profit i.e loss. A powerful insight.**
+> #### **It can be clearly seen that Bookcases, Tables and even machine contribute to negative profit i.e loss. A powerful insight.**
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-4)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20filter%20and%20color.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20filter%20and%20color.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20filter%20and%20color.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20filter%20and%20color.gif)
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#key-findings)Key Findings
+## Key Findings
 
 Let's take a closer look at the filters to find out more about the unprofitable products.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-5)`Steps`
+### `Steps`
 
 > 1.  In the view, in the  `Sub-Category`  filter card, clear all of the check boxes except  `Bookcases, Machines,`  and  `Tables`. This throws an interesting fact. While in some years, Bookcases and Machines were actually profitable. However, in 2016, Machines became unprofitable.
 > 2.  Select  `All`  in the  `Sub-Category`  filter card to show all sub-categories again.
@@ -220,17 +223,17 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 8.  In the Filter Region dialogue box, clear all check boxes except South and then click  `OK`. Now we can clearly focus on sales and profit in the  `South`. We find that machine sales had a negative profit in 2014 and again in 2016. We will investigate this in the next section
 > 9.  Lastly, do not forget to save the results by selecting  `File > Save As`. Give your workbook a name, like  `Regional Sales and Profits`.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-5)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/key%20findings.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/key%20findings.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/key%20findings.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Emphasize%20the%20Results%20/key%20findings.gif)
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#4map-view)4.Map View
+# <a name="map-view"></a>4.Map View 
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#creating-a-map-view)Creating a Map View
+## Creating a Map View
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#map-views-are-very-helpful-when-we-are-looking-at-geographic-data-the-region-field-in-the-current-example-tableau-automatically-recognizes-that-the-country-state-city-and-postal-code-fields-contain-geographical-information)**Map views are very helpful when we are looking at geographic data (the Region field). In the current example, Tableau automatically recognizes that the Country, State, City, and Postal Code fields contain geographical information.**
+#### **Map views are very helpful when we are looking at geographic data (the Region field). In the current example, Tableau automatically recognizes that the Country, State, City, and Postal Code fields contain geographical information.**
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-6)`Steps`
+### `Steps`
 
 > 1.  Create a new worksheet.
 > 2.  Add  `State`  and  `Country`  under Data pane to  `Detail`  on the Marks card. We obtain the map view.
@@ -240,15 +243,15 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 6.  We observe that Florida is performing the best. Hovering over its mark reveals a total of 89,474 USD in sales, as compared to South Carolina, for example, which has only 8,482 USD in sales. Let us gauge the performance by  `Profit`  now since Profit is a better indicator than sales alone.
 > 7.  Drag  `Profit`  to  `Color`  on the Marks card. We now see that Tennessee, North Carolina, and Florida have negative profit, even though it appeared they were doing good in Sales. Rename the sheet as Profit Map
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-6)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/creating%20a%20map%20view.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/creating%20a%20map%20view.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/creating%20a%20map%20view.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/creating%20a%20map%20view.gif)
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#getting-into-the-details)Getting into the details
+## Getting into the details
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#maps-are-great-for-visualizing-the-data-broadly-in-the-last-step-we-discovered-that-we-discovered-that-tennessee-north-carolina-and-florida-have-a-negative-profit-in-this-section-let-us-draw-a-bar-chart-to-explore-the-reason-for-the-negative-profit)**Maps are great for visualizing the data broadly. In the last step, we discovered that we discovered that Tennessee, North Carolina, and Florida have a negative profit. In this section let us draw a Bar chart to explore the reason for the negative profit.**
+#### **Maps are great for visualizing the data broadly. In the last step, we discovered that we discovered that Tennessee, North Carolina, and Florida have a negative profit. In this section let us draw a Bar chart to explore the reason for the negative profit.**
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-7)`Steps`
+### `Steps`
 
 > 1.  Duplicate the Profit Map worksheet and name it Negative Profit Bar Chart.
 >     
@@ -263,7 +266,7 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 >     > 
 >     > 1.  In the Data pane, drag a field and drop it directly on top of another field or right-click the field and select
 >     > 2.  Drag any additional fields into the hierarchy. You can also re-order fields in the hierarchy by dragging them to a new position. In the current viz. we will create the following hierarchies: Location, Order and Product.  
->     >     [![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/Hierarchy.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/Hierarchy.gif)
+>     >     ![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/Hierarchy.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/Hierarchy.gif)
 >     
 > 4.  On the Rows Shelf, click the plus icon on the  `State`Field to drill-down to the  `City`  level of detail
 >     
@@ -275,17 +278,17 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 6.  On the Filters shelf, right-click the Inclusions (Country, State) (Country, State) set and select Add to Context. We find that now Concord, North Carolina appears in view while Miami, Florida disappears which makes sense.
 > 7.  But Jacksonville, North Carolina is still in the view which is incorrect. On the Rows shelf, click the plus icon on City to drill down to the Postal Code level of detail. Right-click the postal code for Jacksonville, NC, 28540, and then select Exclude.
 > 8.  Drag Postal Code of the Rows shelf. This is the final view.  
->     [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.png)
+>     ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.png)
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-7)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/getting%20into%20details.gif)
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#key-findings-1)Key Findings
+## Key Findings
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#let-us-now-focus-only-on-the-loss-making-entities-ie-the-products-and-also-let-us-identify-the-locations-where-such-products-are-sold)**Let us now focus only on the loss-making entities i.e the Products and also let us identify the locations where such products are sold.**
+#### **Let us now focus only on the loss-making entities i.e the Products and also let us identify the locations where such products are sold.**
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-8)`Steps`
+### `Steps`
 
 > 1.  Drag Sub-Category to the Rows shelf.
 > 2.  Drag Profit to Color on the Marks card. This enables us to quickly spot products with negative profit.
@@ -295,17 +298,17 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 6.  From Measures, drag Profit to Label on the Marks card.
 > 7.  On the Data pane, right-click Order Date and select Show Filter to provide some context for the view. Clear Binders, Machines, and Tables from the list on the Sub-Category filter card in the view.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-8)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/key%20findings.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/key%20findings.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Map%20View/key%20findings.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Map%20View/key%20findings.gif)
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#5-dashboard-1)5. Dashboard
+# <a name="dashboard"></a>5. Dashboard
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#a-dashboard-is-a-collection-of-several-views-enabling-one-to-compare-a-variety-of-data-simultaneously)**A dashboard is a collection of several views, enabling one to compare a variety of data simultaneously.**
+#### **A dashboard is a collection of several views, enabling one to compare a variety of data simultaneously.**
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#creating-a-dashboard)Creating a Dashboard
+## Creating a Dashboard
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-9)`Steps`
+### `Steps`
 
 > 1.  Click the  `New dashboard`  button.
 > 2.  Drag  `Sales in the South`  to the empty dashboard
@@ -315,15 +318,15 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 6.  Select the first  `Sub-Category`  filter card on the right side of your view, and at the top of the card, click the  `Remove`icon. Repeat this step for the second  `Sub-Category`  filter card and one of the  `Year of Order Date`  filter cards. Click the drop-down arrow at the top of the  `Year of Order Date`  filter, and select  `Single Value (Slider)`.Now let the magic unfold. Try selecting different years on the Year of Order Date filter and see how the data is quickly filtered to show that state performance varies year by year.
 > 7.  Drag the  `SUM(Profit)`  filter and drag it at the bottom of the dashboard below Sales in South.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-9)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Dashboard/creating%20dashboard.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/creating%20dashboard.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Dashboard/creating%20dashboard.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/creating%20dashboard.gif)
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#adding-interactiveness)Adding Interactiveness
+## Adding Interactiveness
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#in-order-to-make-the-dashboard-more-interactive-like-viewing-which-sub-categories-are-profitable-in-specific-states-few-changes-need-to-be-done)In order to make the dashboard more interactive like viewing which sub-categories are profitable in specific states, few changes need to be done.
+#### In order to make the dashboard more interactive like viewing which sub-categories are profitable in specific states, few changes need to be done.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-10)`Steps`
+### `Steps`
 
 > 1.  Select  `Profit Map`  in the dashboard, and click the  `Use as filter`  icon in the upper right-hand corner
 > 2.  Now if we select any state in the map, the Sales in the  `South chart`  updates to show just the sub-category sales.
@@ -332,19 +335,19 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 5.  Now explore and experiment. In the viz. below we will filter  `Sales in the South`  to only items sold in North Carolina, and then explore year by year profit.
 > 6.  Rename the Dashboard to  `Regional Sales and Profit`.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-10)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Dashboard/adding%20interactiveness.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/adding%20interactiveness.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Dashboard/adding%20interactiveness.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Dashboard/adding%20interactiveness.gif)
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#thus-selling-machines-in-the-north-carolina-did-not-bring-any-profits-to-the-company)**Thus, selling machines in the North Carolina did not bring any profits to the company.**
+#### **Thus, selling machines in the North Carolina did not bring any profits to the company.**
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#6-story-1)6. Story
+# <a name="story"></a>6. Story
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#a-dashboard-is-a-cool-feature-but-tableau-also-offers-us-to-showcase-our-results-in-presentation-mode-in-form-of-stories-about-which-we-will-discuss-in-this-section)A dashboard is a cool feature but tableau also offers us to showcase our results in presentation mode in form of stories about which we will discuss in this section.
+#### A dashboard is a cool feature but tableau also offers us to showcase our results in presentation mode in form of stories about which we will discuss in this section.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#building-a-story)Building a Story
+## Building a Story
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-11)`Steps`
+### `Steps`
 
 > 1.  Click the  `New story`  button.
 > 2.  From the Story pane on the left, drag the  `Sales in the South`  worksheet onto your view.
@@ -353,15 +356,15 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 5.  In the  `Sub-Category`, filter  `select`  only  `Machines`. This helps to gauge sales and profit of machines by year.
 > 6.  Rename the caption to  `Machine sales and profit by year`.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-11)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Story/Buildign%20a%20story.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Story/Buildign%20a%20story.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Story/Buildign%20a%20story.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Story/Buildign%20a%20story.gif)
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#making-a-conclusion)Making a Conclusion
+## Making a Conclusion
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#it-is-clear-that-machines-in-north-carolina-is-leading-to-loss-of-profit-however-this-cannot-be-demonstrated-by-looking-at-profit-and-sales-on-the-whole-for-this-we-need-regional-profit)It is clear that machines in North Carolina is leading to loss of profit. However, this cannot be demonstrated by looking at Profit and Sales on the whole. For thi,s we need regional Profit.
+#### It is clear that machines in North Carolina is leading to loss of profit. However, this cannot be demonstrated by looking at Profit and Sales on the whole. For thi,s we need regional Profit.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-12)`Steps`
+### `Steps`
 
 > 1.  In the Story pane, select  `Blank`. Drag the dashboard  `Regional Sales and Profit`  onto the canvas.
 > 2.  Caption it as  `Low performing items in the South`.
@@ -371,19 +374,20 @@ Let's take a closer look at the filters to find out more about the unprofitable 
 > 6.  Select any year like 2014. Add a caption, for example,  `Profit in NC, 2014`  and then click Duplicate. Repeat the same for all the remaining years.
 > 7.  Click on the presentation mode and let the  `story`  unfold.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-12)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Story/making%20a%20conclusion.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Story/making%20a%20conclusion.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Story/making%20a%20conclusion.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Story/making%20a%20conclusion.gif)
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#now-we-have-an-idea-about-what-products-were-introduced-to-the-north-carolina-market-when-and-how-they-performed-not-only-have-we-identified-a-way-to-address-negative-profit-but-have-also-successfully-managed-to-back-it-with-datathis-is-the-advantage-of-story-in-tableau)Now we have an idea about, what products were introduced to the North Carolina market when, and how they performed. Not only have we identified a way to address negative profit, but have also successfully managed to back it with data.This is the advantage of Story in Tableau.
+#### Now we have an idea about, what products were introduced to the North Carolina market when, and how they performed. Not only have we identified a way to address negative profit, but have also successfully managed to back it with data.This is the advantage of Story in Tableau.
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#7-tableaus-integration-with-r-python--sql)7. Tableau's integration with R, Python & SQL
+# <a name="tableau_with_R,Python,SQL"></a>7. Tableau's integration with R, Python & SQL
+
 
 Apart from the various visualization advantages that Tableau offers, it also has an amazing out of the box connection capabilities. Tableau can easily integrate with languages like Python and R and also with DBMS like SQL. This offers increased advantages in terms of functionalities and comes in handy for Data Scientists who are used to working in Python or R. They can directly import the R and Python scripts in Tableau and take advantage of its visualisations which are far more superior than that of these languages. Also the visualisation capabilities of tableau are easy to use and very intuitive, thereby saving a lot of time for the Data Scientists.
 
 In this section, we will see how we can connect Tableau with these external sources and the advantages of these connections.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-and-r)Tableau and R
+## Tableau and R
 
 R is a popular statistical language used to perform sophisticated analysis and predictive analytics, such as linear and nonlinear modeling, statistical tests, time-series analysis, classification, clustering, etc. Using Tableau in conjunction with R has the following advantages:
 
@@ -391,11 +395,11 @@ R is a popular statistical language used to perform sophisticated analysis and p
 -   Brings Tableau’s fluid data exploration experience and broad connectivity options to R users.
 -   Enables consumers of Tableau worksheets and dashboards take advantage of R, simply by interacting with the visualization or widgets without the need to have any knowledge of the language.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#how-does-tableau-integrate-with-r)How does Tableau integrate with R?
+### How does Tableau integrate with R?
 
 R functions and models can be used in Tableau by creating new calculated fields that dynamically invoke the R engine and pass values to R. The results are then returned back to Tableau for use by the Tableau visualization engine.
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#setting-up-tableau-desktop-with-r)Setting up Tableau Desktop with R
+#### Setting up Tableau Desktop with R
 
 -   **Download and Install  `Rserve`.**
 
@@ -408,26 +412,27 @@ Rserve() / Rserve(args = ‘ — no-save’)
 
 ```
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#connect-tableau-to-the-r-server)Connect Tableau to the R Server
+#### Connect Tableau to the R Server
 
 Once  `Rserve`  is installed, open Tableau Desktop and follow the steps below
 
-1.  Go to the  `Help > Settings and Preferences and select Manage External Service Connection`  [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/connection1.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/connection1.png)
+1.  Go to the  `Help > Settings and Preferences and select Manage External Service Connection`
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/connection1.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/connection1.png)
     
 2.  Enter a server name of “Localhost” (or “127.0.0.1”) and a port of “6311”.
     
 3.  Click on the “Test Connection” button to make sure everything runs smoothly. You should see a successful message. Click OK to close.
     
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/connection2.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/connection2.png)
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/connection2.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/connection2.png)
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#start-using-the-r-scripts-in-tableau)Start using the R scripts in Tableau
+#### Start using the R scripts in Tableau
 
 Upon successfully accomplishing the above steps, we will be able to create new calculated fields in Tableau Desktop that utilize the SCRIPT_* functions to make R functional calls.
 
 Let’s get to work and see how we can use tableau capabilities with R.We will utilize the inbuilt Sample Superstore dataset to calculate Profit both by using R script and by Tableau ‘s drag and Drop feature. We will then compare both the results.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-13)`Steps`
+### `Steps`
 
 > 1.  Open Tableau workbook and connect to the sample superstore data.
 > 2.  Connect to Rserve. Once tableau desktop is connected to Rserve it can invoke R engine through calculated fields.
@@ -459,25 +464,25 @@ SCRIPT_REAL("fit <- lm(.arg1 ~ .arg2 +  .arg3 + .arg4)
 > 7.  We can now analyze the model to see how the  **Expected profit calculated in R compares to the actual profits**. We can continue to analyze this further by pulling customer segments over onto the colors and now we’ve created a stacked bar chart can also utilize ordered dates to break out the data by years or by quarters.
 >     
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-13)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/Tableau%20with%20R.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/Tableau%20with%20R.gif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20R/Tableau%20with%20R.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/Tableau%20with%20R.gif)
 
 One might wonder all the above calculations could have been done in Tableau without using R. So, why should we go through the process of downloading and configuring Rserve in Tableau and write scripts? R is a very powerful language because of its power to easily forecast, utilising widely-used libraries that contain well-known algorithms.Imagine how nice it would be to make predictions for our business in Tableau, by calling a simple R script and then being able to incorporate it into Tableau's visualisations.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-and-python)Tableau and Python
+## Tableau and Python
 
 Python is a widely used general-purpose programming language, and a large number of Python libraries are available to perform statistical analysis, predictive models or machine learning algorithms. Connecting Tableau with Python is one of the best approaches for predictive analytics. Tabpy is a package developed to do the same. Tableau can connect to the TabPy server to execute Python code on the fly and display results in Tableau visualizations.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#how-does-tableau-integrate-with-python)How does Tableau integrate with Python?
+### How does Tableau integrate with Python?
 
 When we use TabPy with Tableau, we can define calculated fields in Python, thereby leveraging the power of a large number of machine-learning libraries right from our visualizations.
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#setting-up-tableau-desktop-with-python)Setting up Tableau Desktop with Python
+#### Setting up Tableau Desktop with Python
 
 **Download and Install  `Tabpy`.**
 
-Running Python code within a Tableau workbook requires a Python server to execute it, and the TabPy framework gets the job done. Download TabPy from Github at the following  [link](https://github.com/tableau/TabPy/)  .Alternatively you can follow the steps below:
+Running Python code within a Tableau workbook requires a Python server to execute it, and the TabPy framework gets the job done. Download TabPy from Github at the following  [link](https://github.com/tableau/TabPy/).Alternatively you can follow the steps below:
 
 ```
 conda install -c anaconda tabpy-server
@@ -491,15 +496,15 @@ python setp.py
 
 ```
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#connecting-tableau-with-tabpy)Connecting Tableau with TabPy
+#### Connecting Tableau with TabPy
 
 The next step is to connect Tableau with TabPy. This can be done  `in Help > Settings and Performance > Manage External Service Connection:`
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20Python/Tabpy%20connection.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Tabpy%20connection.png)
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20Python/Tabpy%20connection.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Tabpy%20connection.png)
 
 Test the connection and you should get a “successfully connected” prompt.
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#start-using-the-python-scripts-in-tableau)Start using the Python scripts in Tableau
+#### Start using the Python scripts in Tableau
 
 This new Python integration in Tableau enables powerful scenarios. For example, it takes only a few lines of Python code to get the sentiment scores for reviews of products sold at an online retailer. Then one can explore the results in many ways in Tableau.Let us see this with an example
 
@@ -507,7 +512,7 @@ This new Python integration in Tableau enables powerful scenarios. For example, 
 
 We will be using the mobile reviews dataset which can be downloaded from  [here](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/reviews.csv).
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-14)`Steps:`
+### `Steps:`
 
 > 1.  Import the dataset into Tableau Desktop
 > 2.  Connect to Tabpy. Once Tableau desktop is connected to  `Tabpy`  it can invoke Python engine through calculated fields.
@@ -526,11 +531,12 @@ return vs",ATTR([Reviews]))`
 
 > We are using the  `VADER sentiment analysis`  tool here. It is a lexicon and rule-based sentiment analysis tool that is  _specifically attuned to sentiments expressed in social media_.To use to this tool you will need to install it first.Please read more at their  [github page](https://github.com/cjhutto/vaderSentiment).
 > 
-> 4.  Now, drag  `Reviews`  onto rows and  `Sentiment`  onto  **Text and Color Marks card**  and see the magic happening. We get the sentiment analysis of the review done without any hassle. Also it gets super easy to visualise the results too .The positive reviews are in increasing order of green while the negative ones are in red.  [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20Python/Sentiment%20analysis.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Sentiment%20analysis.png)
+> 4.  Now, drag  `Reviews`  onto rows and  `Sentiment`  onto  **Text and Color Marks card**  and see the magic happening. We get the sentiment analysis of the review done without any hassle. Also it gets super easy to visualise the results too .The positive reviews are in increasing order of green while the negative ones are in red. 
+![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20Python/Sentiment%20analysis.png)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Sentiment%20analysis.png)
 
 Thus, we have seen how it takes only a few lines of Python code to get the sentiment scores for reviews of products sold at an online retailer. Then we can explore the results in many ways in Tableau.We might filter to see just the negative reviews and review their content to understand the reasons behind them or we might visualize overall sentiment changes over time.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-and-sql-server)Tableau and SQL Server
+## Tableau and SQL Server
 
 There is a hidden value in our Microsoft SQL Server data which lies buried under the standard reports and complex business intelligence tools.  **Tableau delivers insight everywhere by equipping anyone to do a sophisticated visual analysis of SQL Server data.**  We can connect Tableau to SQL Server live for tuned, platform-specific queries, or directly bring data into Tableau’s analytical engine to take the burden off the database.
 
@@ -538,34 +544,34 @@ Tableau provides an optimised, live connector to SQL Server so that we can creat
 
 Let us walk through an example depicting how to connect SQL server database to tableau Desktop and then use it to create visualisations.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-15)`Steps:`
+### `Steps:`
 
 > 1.  Login to the SQL Server
 > 2.  Open Tableau Desktop and under Servers, connect to MS SQL.
 > 3.  Paste the server name in the dialog box that opens and click ok. This connects Tableau to the SQL Server. Select the database of choice.In this example we choose the salesDB. We can then select from a list of TABLES too eg Sales Log. The table gets imported into the Tableau environment .Now we can choose to extract the entire data or the portion of it to new worksheet. We can even specify the number of rows to extract.
 > 4.  In the new worksheet we have the extracted data from MS SQL, From here we can work with it like any other Tableau Worksheet.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-14)`Hands On:`
+### `Hands On:`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20SQL/Tableau%20with%20SQL.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20SQL/Tableau%20with%20SQL.gif)  This is how we can easily connect SQL Server to Tableau and extract the data directly into it . Tableau enables the users to toggle connections with a click to apply in-memory queries to a larger dataset.
+![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Tableau%20with%20SQL/Tableau%20with%20SQL.gif)(https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20SQL/Tableau%20with%20SQL.gif)  This is how we can easily connect SQL Server to Tableau and extract the data directly into it . Tableau enables the users to toggle connections with a click to apply in-memory queries to a larger dataset.
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#8-saving-the-work-1)8. Saving the work
+# <a name="saving"></a>8. Saving the work
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-desktop)Tableau Desktop
+## Tableau Desktop
 
 To save a Tableau workbook locally, Select File > Save. Specify the workbook file name in the  `Save As`dialog box. Tableau saves the file with the .twb extension by default.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-public)Tableau Public
+## Tableau Public
 
 With Tableau Public all the views and data is made public and anybody on the internet has access to it.  `Select Server > Tableau Public > Save to Tableau Public`  and enter the credentials.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-server)[Tableau Server](https://www.tableau.com/products/server)
+## [Tableau Server](https://www.tableau.com/products/server)
 
 In case the data is confidential and the story needs to be shared with the entire team, Tableau Server comes in handy. To publish a story to Tableau Server, Select  `Select Server > Publish Workbook`  or  `click Share`  on the toolbar. But make sure to create an account first.
 
 ----------
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#thats-all-we-need-to-create-a-good-visualization-in-tableau-although-one-might-find-doing-a-lot-more-revising-in-each-stage-than-we-did-here-so-with-experimentation-and-practise-tableau-becomes-a-lot-more-familiar-and-will-unleash-amazing-features-to-help-us-analyze-and-present-data-please-comment-below-in-case-of-any-queries-or-questions-and-happy-visualising)That's all we need to create a good visualization in Tableau although, one might find doing a lot more revising in each stage than we did here. So with experimentation and practise, tableau becomes a lot more familiar and will unleash amazing features to help us analyze and present data. Please comment below in case of any queries or questions and Happy Visualising.
+###That's all we need to create a good visualization in Tableau although, one might find doing a lot more revising in each stage than we did here. So with experimentation and practise, tableau becomes a lot more familiar and will unleash amazing features to help us analyze and present data. Please comment below in case of any queries or questions and Happy Visualising.
 
 
 
