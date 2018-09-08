@@ -415,7 +415,7 @@ There is one other mark in the view—Jacksonville, North Carolina—that doesn'
 
 Apart from the various visualization advantages that Tableau offers, it also has an amazing out of the box connection capabilities. Tableau can easily  integrate with languages like Python and R and also with DBMS like SQL. This offers increased advantages in terms of functionalities and comes in handy for Data Scientists who are used to working in Python or R. They can directly import the R and Python scripts in Tableau and take advantage of its visualisations which are far more superior than that of these languages. Also the visualisation capabilities of tableau are easy to use and very intuitive, thereby saving a lot of time for the Data Scientists.
 
-In this section, we will see how we can connect Tableau with these external sources and the advantages it provides on the connection.
+In this section, we will see how we can connect Tableau with these external sources and the advantages of these connections.
 
 ## Tableau and R
 R is a popular statistical language used to perform sophisticated analysis and predictive analytics, such as linear and nonlinear modeling, statistical tests, time-series analysis, classification, clustering, etc. Using Tableau in conjunction with R has the following advantages:
@@ -448,6 +448,7 @@ Once `Rserve` is installed, open Tableau Desktop and follow the steps below
 
 2. Enter a server name of “Localhost” (or “127.0.0.1”) and a port of “6311”.
 3. Click on the “Test Connection” button to make sure everything runs smoothly. You should see a successful message. Click OK to close.
+
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/connection2.png)
 
 #### Start using the R scripts in Tableau
@@ -488,7 +489,7 @@ begin with the word **script.** The functions are:
 ### `Hands On`
 ![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20R/Tableau%20with%20R.gif)
 
-One might wonder all the above calculations could have been done in Tableau without using R. So, why should we go through the process of downloading and configuring Rserve in Tableau and write scripts? R is a very powerful language because of its power to easily forecast, utilising widely-used libraries that contain well-known algorithms. imagine how nice it would be to make predictions for our business in Tableau, by calling a simple R script and then being able to incorporate it into Tableau's visualisations.
+One might wonder all the above calculations could have been done in Tableau without using R. So, why should we go through the process of downloading and configuring Rserve in Tableau and write scripts? R is a very powerful language because of its power to easily forecast, utilising widely-used libraries that contain well-known algorithms.Imagine how nice it would be to make predictions for our business in Tableau, by calling a simple R script and then being able to incorporate it into Tableau's visualisations.
 
 
 ## Tableau and Python
