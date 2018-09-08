@@ -540,7 +540,7 @@ We will be using the mobile reviews dataset which can be downloaded from [here](
     return vs",ATTR([Reviews]))`
 > We are using the `VADER sentiment analysis` tool here. It is a lexicon and rule-based sentiment analysis tool that is _specifically attuned to sentiments expressed in social media_.To use to this tool you will need to install it first.Please read more at their [github page](https://github.com/cjhutto/vaderSentiment).
 > 
-> 4. Now, drag `Reviews` onto rows and `Sentiment` onto **Text and Color Marks card** and see the magic happening. We get the sentiment analysis of the review done without any hassle. Also it gets so easy to visualise the results also .The positive reviews are in increasing order of green while the negative ones are in red.
+> 4. Now, drag `Reviews` onto rows and `Sentiment` onto **Text and Color Marks card** and see the magic happening. We get the sentiment analysis of the review done without any hassle. Also it gets super easy to visualise the results too .The positive reviews are in increasing order of green while the negative ones are in red.
 > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Sentiment%20analysis.png)
 >
 Thus, we have seen how  it takes only a few lines of Python code to get the sentiment scores for reviews of products sold at an online retailer. Then we can explore the results in many ways in Tableau.We might filter to see just the negative reviews and review their content to understand the reasons behind them or we might visualize overall sentiment changes over time.
