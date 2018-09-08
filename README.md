@@ -413,7 +413,7 @@ There is one other mark in the view—Jacksonville, North Carolina—that doesn'
 # <a name="tableau_with_R,Python,SQL"></a>7. Tableau's integration with R, Python & SQL
 
 
-Apart from the various visualization advantages that Tableau offers, it also has  amazing out of the box connection capabilities. Tableau can easily  integrate with languages like Python and R and also with DBMS like SQL. This offers increased advantages in terms of functionalities and comes in handy for Data Scientists who are used to working in Python or R. They can directly import the R and Python scripts in Tableau and take advantage of its visualisations which are far more superior than that of these languages. Also the visualisation capabilities of tableau are easy to use and very intuitive, thereby saving a lot of time for the Data Scientists.
+Apart from the various visualization advantages that Tableau offers, it also has an amazing out of the box connection capabilities. Tableau can easily  integrate with languages like Python and R and also with DBMS like SQL. This offers increased advantages in terms of functionalities and comes in handy for Data Scientists who are used to working in Python or R. They can directly import the R and Python scripts in Tableau and take advantage of its visualisations which are far more superior than that of these languages. Also the visualisation capabilities of tableau are easy to use and very intuitive, thereby saving a lot of time for the Data Scientists.
 
 In this section, we will see how we can connect Tableau with these external sources and the advantages it provides on the connection.
 
