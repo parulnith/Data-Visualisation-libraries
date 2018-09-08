@@ -493,7 +493,7 @@ One might wonder all the above calculations could have been done in Tableau with
 
 
 ## Tableau and Python
-Python is a widely used general-purpose programming language, and a large number of Python libraries are available to perform statistical analysis, predictive models or machine learning algorithms. Connecting Tableau with Tableau is one of the best approaches for predictive analytics. Tabpy is a package developed to do the same. Tableau can connect to the TabPy server to execute Python code on the fly and display results in Tableau visualizations.
+Python is a widely used general-purpose programming language, and a large number of Python libraries are available to perform statistical analysis, predictive models or machine learning algorithms. Connecting Tableau with Python is one of the best approaches for predictive analytics. Tabpy is a package developed to do the same. Tableau can connect to the TabPy server to execute Python code on the fly and display results in Tableau visualizations.
 
 ### How does Tableau integrate with Python?
 When we use TabPy with Tableau, we can define calculated fields in Python, thereby leveraging the power of a large number of machine-learning libraries right from our visualizations.
@@ -512,9 +512,10 @@ Then cd to the directory containing the downloaded tabpy server and run
 #### Connecting Tableau with TabPy
 
 The next step is to connect Tableau with TabPy. This can be done `in Help > Settings and Performance > Manage External Service Connection:`
+
 ![](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Tableau%20with%20Python/Tabpy%20connection.png)
 
-Test the connection and you should get a “successfully connected” prompt. Now you can check out an example of predictive analysis.
+Test the connection and you should get a “successfully connected” prompt. 
 
 #### Start using the Python scripts in Tableau
 
