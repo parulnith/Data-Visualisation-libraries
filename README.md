@@ -55,41 +55,42 @@ The main products offered by tableau are:  [![](https://github.com/parulnith/Dat
 
 [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/Tableau%20Products.png)
 
-> ### in-this-tutorial-we-will-be-working-with-tableau-desktop)In this tutorial, we will be working with Tableau Desktop.
+> ### In this tutorial, we will be working with Tableau Desktop.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#installation)Installation
+## Installation
 
 Depending upon the choice of product, download the software on to the computer. The installation is a very straightforward process in which you need to accept the license agreement. You can verify the installation by clicking the Tableau Icon. If the following screen appears, you are good to go.
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)
+[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/Introduction%20to%20tableau/installation.png)]
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#2getting-started)2.Getting Started
+
+# <a name="getting-started"></a>2.Getting Started
 
 In this section, we will learn some basic operations in Tableau to get acquainted with its interface.
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#tableau-workspace)Tableau Workspace
+## Tableau Workspace
 
 The Tableau workspace consists of menus, a toolbar, the Data pane, cards and shelves, and one or more sheets. Sheets can be worksheets, dashboards, or stories. The image below highlights the major components of the workspace. However, more familiarity will be achieved once we work with actual data.
 
-[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)
+[![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Tableau%20Workspace.png)]
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#connecting-to-a-data-source)Connecting to a Data Source
+## Connecting to a Data Source
 
 Before we can build a view and analyze our data, Tableau must be first connected to the intended data. Tableau supports connection to a wide variety of data, stored in a variety of places. For example, your data might be stored on your computer in a spreadsheet or a text file, or in a big data, relational, or cube (multidimensional) database on a server in your enterprise. Or, you might connect to public domain data available on the web such as U.S. Census Bureau information, or to a cloud database source, such as Google Analytics, Amazon Redshift, or Salesforce.
 
 When you launch Tableau Desktop, the data connectors that are available to you are listed on the  `Connect`  pane, which is the left pane on the  `Start page`. File types are listed first, then common server types, or servers that you've recently connected to. Click  `More`  to see the complete list of data connectors you can use. Under  `Open`, you can open workbooks that you have already created. Under  `Sample Workbooks`, view sample dashboards and worksheets that come with Tableau Desktop. Under  `Discover`, find additional resources like video tutorials, forums, or the “Viz of the week” to get ideas about what you can build.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)
+[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connecting_to_dataource.gif)]
 
 For supported files and databases, Tableau provides built-in connectors that are built for and optimized for those types of data. If your file or database type is listed under Connect, use this named connector to connect to your data. If your file or database type is not listed, you might have the option of creating your own connection using Other Databases (ODBC) or Web Data Connector. Tableau provides limited support for connections that you create using either of these options
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#connecting-to-the-sample-superstore-data-set)Connecting to the  [Sample-Superstore data set](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls)
+#### Connecting to the  [Sample-Superstore data set](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/Data%20Visualisation%20with%20Tableau/Sample-Superstore%20.xls)
 
 For convenience, let’s use the sample data set that comes with Tableau installation named sample superstore.xls.However, in this tutorial, we will download it from here and load it as an excel sheet. The data is that of a United States’ Superstore. It contains information about products, sales, profits, and so on that you can use to identify key areas for improvement within this fictitious company.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps)`Steps`
+### `Steps`
 
 > 1.  Import the Data into tableau workspace from the computer.
 >     
@@ -98,11 +99,11 @@ For convenience, let’s use the sample data set that comes with Tableau install
 > 3.  We observe the first three rows of data looks a bit different and is not in the desired format. Here we make use of Data Interpreter, also present under Sheets Tab. By clicking on it we get a nicely formatted sheet. If you wish to view the exact changes that it made, click on Review the results, and choose the Orders tab in the opened Excel sheet. it will show, it simply removed the erroneous data.
 >     
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-1)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)
+[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/connectingToData2.gif)]
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#creating-a-view)Creating a View
+## Creating a View
 
 We will start by creating a simple chart. In this section, we will get to know our data and will start to ask questions about the data to gain insights There are some important terms that we will encounter in this section.
 
@@ -118,11 +119,11 @@ Measures are quantitative numerical data. By default, Tableau treats any field c
 
 Row-level data rolled up to a higher category, such as the sum of sales or total profit. Tableau does this automatically so you can break data down to the level of detail that you want to work with.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-1)`Steps`
+### `Steps`
 
 > 1.  Go to the worksheet. Click on the tab  `Sheet 1`  at the bottom left of the tableau workspace.
 > 
-> [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)
+> [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.png)]
 > 
 > 2.  Once, you are in the worksheet, from Dimensions in the Data pane, drag Order Date to the Columns shelf.
 > 
@@ -132,17 +133,17 @@ Row-level data rolled up to a higher category, such as the sum of sales or total
 > 
 > _Tableau generates a chart with sales rolled up as a sum (aggregated). Total aggregated sales for each year by order date is displayed.Tableau always generates a line chart for a view that includes time (in this case Order Date)_
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-2)`Hands On`
+### `Hands On`
 
-[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)
+[![Alt Text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/creating%20a%20view.gif)]
 
-#### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#this-line-chart-shows-that-sales-look-pretty-good-and-seem-to-be-increasing-over-time-this-is-good-information-but-it-doesnt-really-tell-you-much-about-which-products-have-the-strongest-sales-and-if-there-are-some-products-that-might-be-performing-better-than-others-let-us-see-what-else-you-can-find-out)_This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Let us see what else you can find out._
+#### _This line chart shows that sales look pretty good and seem to be increasing over time. This is good information, but it doesn't really tell you much about which products have the strongest sales and if there are some products that might be performing better than others. Let us see what else you can find out._
 
-## [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#refining-the-view)Refining the View
+## Refining the View
 
 Let us delve deeper and try to find out more insights regarding which products drive more sales. Let's start by adding the product categories to look at sales totals in a different way.
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#steps-2)`Steps`
+### `Steps`
 
 > 1.  From Dimensions, drag  `Category`  to the Columns shelf and place it to the right of  `YEAR(Order Date)`.The view updates to a bar chart. By adding a second discrete dimension to the view, data changes into discrete chunks instead of continuous. This creates a bar chart and shows the overall  `Sales`  for each  `Product`  category by year.
 >     
@@ -150,27 +151,29 @@ Let us delve deeper and try to find out more insights regarding which products d
 >     
 >     > 1.  To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2017:
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)  
+>     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)]
 >     > 2. To add data point information as labels to your view, click  `Show Mark Labels`  on the toolbar.
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
+>     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)]
 >     > 
 >     > 3.  To display the bar chart horizontally instead of vertically, click Swap on the toolbar.
 >     > 
->     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
+>     > [![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)]
 >     
 
 > 2.  The view above nicely shows  `sales`  by  `category`  i.e furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a very broad category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
 > 
-> #### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#to-help-answer-that-question-we-decide-to-look-at-products-by-sub-category-to-see-which-items-are-the-big-sellers-for-example-for-the-furniture-category-you-want-to-see-details-about---bookcases-chairs-furnishings-and-tables-double-click-or-drag-the-sub-category-dimension-to-the-columns-shelf)**To help answer that question, we decide to look at products by  `sub-category`  to see which items are the big sellers. For example, for the Furniture category, you want to see details about bookcases, chairs, furnishings, and tables. Double-click or drag the Sub-Category dimension to the Columns shelf.**
+> #### **To help answer that question, we decide to look at products by  `sub-category`  to see which items are the big sellers. For example, for the Furniture category, you want to see details about bookcases, chairs, furnishings, and tables. Double-click or drag the Sub-Category dimension to the Columns shelf.**
 
-> #### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#the-sub-category-is-another-discrete-field-it-creates-another-header-at-the-bottom-of-the-view-and-shows-a-bar-for-each-sub-category-68-marks-broken-down-by-category-and-year-however-it-is-a-lot-of-data-to-visually-make-sense-of-in-the-next-section-we-will-learn-about-filters-color-and-other-ways-to-make-the-view-more-comprehensible)**The sub-category is another discrete field. It creates another header at the bottom of the view and shows a bar for each  `sub-category`  (68 marks) broken down by category and year. However, it is a lot of data to visually make sense of. In the next section, we will learn about filters, color and other ways to make the view more comprehensible.**
+> #### **The sub-category is another discrete field. It creates another header at the bottom of the view and shows a bar for each  `sub-category`  (68 marks) broken down by category and year. However, it is a lot of data to visually make sense of. In the next section, we will learn about filters, color and other ways to make the view more comprehensible.**
 
-### [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#hands-on-3)`Hands On`
+### `Hands On`
 
-[![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)
+[![Alt text](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20viewgif.gif)]
 
-# [](https://github.com/parulnith/Data-Visualisation-with-tableau/blob/master/README.md#3emphasise-the-results)3.Emphasise the Results
+
+# <a name="emphasise-the-results"></a>3.Emphasise the Results
+
 
 In this section, we will try to focus on specific results. Filters and colors are ways to add more focus to the details that interest us.
 
