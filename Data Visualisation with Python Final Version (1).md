@@ -152,18 +152,18 @@ Let us delve deeper and try to find out more insights regarding which products d
 
 1.  From Dimensions, drag  `Category`  to the Columns shelf and place it to the right of  `YEAR(Order Date)`.The view updates to a bar chart. By adding a second discrete dimension to the view, data changes into discrete chunks instead of continuous. This creates a bar chart and shows the overall  `Sales`  for each  `Product`  category by year.
     
-    > `Learn More`
+    `Learn More`
     
-    > To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2016:
-    > 
-    > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
-    >
-    > To add labels to the view, click  `Show Mark Labels`  on the toolbar.
-    > 
-    > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
-    > 
-    >  The bar chart can be displayed horizontally instead of vertically too. Click `Swap` on the toolbar for the same.     
-   > ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
+    To view information about each data point (that is, mark) in the view, hover over one of the bars to reveal a tooltip. The tooltip displays total sales for that category. Here is the tooltip for the Office Supplies category for 2016:
+    
+    ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view1.png)
+    
+    To add labels to the view, click  `Show Mark Labels`  on the toolbar.
+    
+    ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view2.png)
+    
+    The bar chart can be displayed horizontally instead of vertically too. Click `Swap` on the toolbar for the same.     
+   ![](https://github.com/parulnith/Data-Visualisation-with-tableau/raw/master/%20images%20and%20gifs/getting%20started/Refining%20the%20view3.png)
     
 
 2.  The view above nicely shows  `sales`  by  `category`  i.e furniture, office supplies, and technology. We can also infer that furniture sales are growing faster than sales of office supplies except for 2016. Hence it will be wise to focus sales efforts on furniture instead of office supplies. But furniture is a very broad category and consists of many different items. How can we identify which furniture item is contributing towards maximum sales?
@@ -576,7 +576,7 @@ In case the data is confidential and the story needs to be shared with the entir
 
 ----------
 
-###That's all we need to create a good visualization in Tableau although, one might find doing a lot more revising in each stage than we did here. So with experimentation and practise, tableau becomes a lot more familiar and will unleash amazing features to help us analyze and present data. Please comment below in case of any queries or questions and Happy Visualising.
+### That's all we need to create a good visualization in Tableau although, one might find doing a lot more revising in each stage than we did here. So with experimentation and practise, tableau becomes a lot more familiar and will unleash amazing features to help us analyze and present data. Please comment below in case of any queries or questions and Happy Visualising.
 
 
 
