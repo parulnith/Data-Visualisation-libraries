@@ -8,7 +8,7 @@ This repository contains the files linked to the articles that I wrote on **Medi
 
 
  ## Python
- 1.### [PyViz: Simplifying the Data Visualisation process in Python.](https://towardsdatascience.com/pyviz-simplifying-the-data-visualisation-process-in-python-1b6d2cb728f1)
+ 1. ### [PyViz: Simplifying the Data Visualisation process in Python.](https://towardsdatascience.com/pyviz-simplifying-the-data-visualisation-process-in-python-1b6d2cb728f1)
  
 An overview of the PyViz ecosystem to make data visualizations in Python easier to use, learn and more powerful.
 ![Alt text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/PyViz.gif)
