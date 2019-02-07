@@ -13,12 +13,12 @@ This repository contains the files linked to the articles that I wrote on **Medi
 An overview of the PyViz ecosystem to make data visualizations in Python easier to use, learn and more powerful.
 ![Alt text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/PyViz.gif)
  
-2.### [Visualising Machine Learning Datasets with Google’s  FACETS.](https://towardsdatascience.com/visualising-machine-learning-datasets-with-googles-facets-462d923251b3)
+2. ### [Visualising Machine Learning Datasets with Google’s  FACETS.](https://towardsdatascience.com/visualising-machine-learning-datasets-with-googles-facets-462d923251b3)
 
 An open source tool from  **Google**  to easily learn patterns from large amounts of data
 ![enter image description here](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Facets.png)
 
-3.### [Exploratory Data Visualisation with Altair](https://medium.com/analytics-vidhya/exploratory-data-visualisation-with-altair-b8d85494795c)
+3. ### [Exploratory Data Visualisation with Altair](https://medium.com/analytics-vidhya/exploratory-data-visualisation-with-altair-b8d85494795c)
 
 An introduction to the Altair package and its API for effective data visualizations.
 ![enter image description here](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Altair.png)
@@ -30,14 +30,14 @@ An overview of the Folium library to visualize Geospatial data
 ![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Folium.png)
 
 ## R
-1.### [A Comprehensive Guide to Data Visualisation in R for Beginners](https://towardsdatascience.com/a-guide-to-data-visualisation-in-r-for-beginners-ef6d41a34174)
+1. ### [A Comprehensive Guide to Data Visualisation in R for Beginners](https://towardsdatascience.com/a-guide-to-data-visualisation-in-r-for-beginners-ef6d41a34174)
 
 An overview of the R visualisation capabilities.
 ![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data-Visualisation-with-R/Multiple%20charts/multiple%20charts.png)
 
 ## Tableau
 
-1.### [Data Visualisation with Tableau](https://www.datacamp.com/community/tutorials/data-visualisation-tableau)
+1. ### [Data Visualisation with Tableau](https://www.datacamp.com/community/tutorials/data-visualisation-tableau)
 
 Learning  how to analyze and display data using Tableau and make better, more data-driven decisions.
 ![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)
