@@ -86,11 +86,11 @@ Enter the following credentials:
 
 You will now be granted a ‘Read Only’ access to the ‘**SuperStoreUS**’ database.
 
-![Alt text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/SQL%20with%20Tableau/Images%20and%20gif/4.MSSQL%20credentials.giff)
+![Alt text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/SQL%20with%20Tableau/Images%20and%20gif/4.MSSQL%20credentials.gif)
 
 For our example, **ec2–52–14–205–70.us-east-2.compute.amazonaws.com** is the name of the instance, **SuperstoreUS** and **Test** are the databases, and **Orders**, **Customer**s etc are the tables within the **SuperstoreUS database**. Thus there can be multiple instances and each instance can further contain multiple databases which can further have multiple tables.
 
-![Alt Text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/SQL%20with%20Tableau/Images%20and%20gif/5.%20MSSQL%20explore.gifif)
+![Alt Text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/SQL%20with%20Tableau/Images%20and%20gif/5.%20MSSQL%20explore.gif)
 
 
 
