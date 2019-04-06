@@ -167,7 +167,7 @@ Similarly, there are other multitudes of functions that can be carried out  like
 
 ----------
 
-## <a name = "reports"></a> 6. Reports
+## <a name = "report"></a> 6. Reports
 
 Reports are a collection of visualisations that can be created on one or more pages. These visualisations are usually related to one another. 
 
