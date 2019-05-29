@@ -1,6 +1,7 @@
 # Data Visualisation Libraries
 
 *Don’t simply show data, tell a story with it!*
+
 Yes, we have data and we have insights, now what? Obviously, the next step would be to communicate these findings with people so that they can take the necessary actions. One of the most effective ways to communicate data is through storytelling. But to be effective storytellers, we need to simplify things and not complicate them so that the real essence of the analysis is not lost.
 
 ## About this repository 
