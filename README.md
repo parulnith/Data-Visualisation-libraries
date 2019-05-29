@@ -4,8 +4,7 @@
 William S. Cleveland*
 
 ## About this repository 
-This repository contains the files linked to the articles that I wrote on **Medium** regarding different Data Visualisation tools both in R and Python
-
+This repository contains the files linked to the articles that I wrote on **Medium** regarding different Data Visualisation libraries.
 
 ### Python
 * [PyViz: Simplifying the Data Visualisation process in Python.](https://towardsdatascience.com/pyviz-simplifying-the-data-visualisation-process-in-python-1b6d2cb728f1)
