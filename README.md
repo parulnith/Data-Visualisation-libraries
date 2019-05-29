@@ -28,7 +28,6 @@ This repository contains the files linked to the articles that I wrote on **Medi
 ### Tableau
 
 * [Data Visualisation with Tableau](https://www.datacamp.com/community/tutorials/data-visualisation-tableau)
-   Learning  how to analyze and display data using Tableau and make better, more data-driven decisions.
 * [SQL with Tableau](https://www.datacamp.com/community/tutorials/sql-tableau)   
 * [Spreadsheets with Tableau](https://www.datacamp.com/community/tutorials/spreadsheets-tableau)
 * [Word Clouds in Tableau: Quick & Easy](https://towardsdatascience.com/word-clouds-in-tableau-quick-easy-e71519cf507a)
