@@ -11,22 +11,20 @@ This repository contains the files linked to the articles that I wrote on **Medi
 * [PyViz: Simplifying the Data Visualisation process in Python.](https://towardsdatascience.com/pyviz-simplifying-the-data-visualisation-process-in-python-1b6d2cb728f1)
  
 An overview of the PyViz ecosystem to make data visualizations in Python easier to use, learn and more powerful.
-![Alt text](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/PyViz.gif)
+
  
 * [Visualising Machine Learning Datasets with Google’s  FACETS.](https://towardsdatascience.com/visualising-machine-learning-datasets-with-googles-facets-462d923251b3)
 
 An open source tool from  **Google**  to easily learn patterns from large amounts of data
-![enter image description here](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Facets.png)
 
 * [Exploratory Data Visualisation with Altair](https://medium.com/analytics-vidhya/exploratory-data-visualisation-with-altair-b8d85494795c)
 An introduction to the Altair package and its API for effective data visualizations.
-![enter image description here](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Altair.png)
 
 
 * [Visualising Geospatial data with Python using Folium](https://medium.com/datadriveninvestor/visualising-geospatial-data-with-python-d3b1c519f31)
 
 An overview of the Folium library to visualize Geospatial data
-![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/images/Folium.png)
+
 
 ---
 ## R
