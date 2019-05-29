@@ -39,5 +39,6 @@ This repository contains the files linked to the articles that I wrote on **Medi
 * [SQL with PowerBI](https://www.datacamp.com/community/tutorials/sql-with-powerbi)
 ---
 
-### [10 Free tools to get started with Data Visualisation-Easily & Instantly](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
- Jump right into the Data Visualisation process with these easy and intuitive tools.
+### Drag and Drop Visualisation tools
+* [10 Free tools to get started with Data Visualisation-Easily & Instantly](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
+ J
