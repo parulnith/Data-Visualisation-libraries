@@ -27,15 +27,16 @@ An overview of the Folium library to visualize Geospatial data
 
 
 ---
-## R
-1. ### [A Comprehensive Guide to Data Visualisation in R for Beginners](https://towardsdatascience.com/a-guide-to-data-visualisation-in-r-for-beginners-ef6d41a34174)
+### R
+* [A Comprehensive Guide to Data Visualisation in R for Beginners](https://towardsdatascience.com/a-guide-to-data-visualisation-in-r-for-beginners-ef6d41a34174)
 
 An overview of the R visualisation capabilities.
-![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data-Visualisation-with-R/Multiple%20charts/multiple%20charts.png)
+---
 
-## Tableau
+### Tableau
 
 1. ### [Data Visualisation with Tableau](https://www.datacamp.com/community/tutorials/data-visualisation-tableau)
 
 Learning  how to analyze and display data using Tableau and make better, more data-driven decisions.
-![](https://github.com/parulnith/Data-Visualisation-libraries/blob/master/Data%20Visualisation%20with%20Tableau/%20images%20and%20gifs/Emphasize%20the%20Results%20/adding%20color%5C.png)
+
+### PowerBI
