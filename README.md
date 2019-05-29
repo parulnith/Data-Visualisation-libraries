@@ -1,7 +1,7 @@
 # Data Visualisation Libraries
 
-*Visualization is critical for data analysis. It provides a front line of attack, revealing intricate structures in data that cannot be absorbed in any other way. We discover unimagined effects, and we challenge imagined ones:
-William S. Cleveland*
+*Don’t simply show data, tell a story with it!*
+Yes, we have data and we have insights, now what? Obviously, the next step would be to communicate these findings with people so that they can take the necessary actions. One of the most effective ways to communicate data is through storytelling. But to be effective storytellers, we need to simplify things and not complicate them so that the real essence of the analysis is not lost.
 
 ## About this repository 
 This repository contains the files linked to the articles that I wrote on **Medium** regarding different Data Visualisation libraries.
@@ -39,5 +39,16 @@ This repository contains the files linked to the articles that I wrote on **Medi
 ---
 
 ### Drag and Drop Visualisation tools
-* [10 Free tools to get started with Data Visualisation-Easily & Instantly](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
- J
+[10 Free tools to get started with Data Visualisation-Easily & Instantly](https://towardsdatascience.com/10-free-tools-to-instantly-get-started-with-data-visualisation-d7fadb5f6dce)
+ * Data Wrapper
+ * RAWGraphs
+ * Charted
+ * Chart Studio
+ * Fastcharts
+ * Palladio
+ * Openheatmap
+ * MyHeatMap
+ * Chartbuilder
+ * Timeline.js
+
+
