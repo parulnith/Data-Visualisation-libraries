@@ -27,7 +27,9 @@ This repository contains the files linked to the articles that I wrote on **Medi
 
 ### Tableau
 
-* [Data Visualisation with Tableau](https://www.datacamp.com/community/tutorials/data-visualisation-tableau)
+* [Data Visualisation with Tableau](https://medium.com/@parulnith/data-visualisation-with-tableau-150f99a39bba)
+* [Python with Tableau](https://medium.com/@parulnith/data-visualisation-with-tableau-150f99a39bba)
+* [R with Tableau](https://medium.com/@parulnith/data-visualisation-with-tableau-150f99a39bba)
 * [SQL with Tableau](https://www.datacamp.com/community/tutorials/sql-tableau)   
 * [Spreadsheets with Tableau](https://www.datacamp.com/community/tutorials/spreadsheets-tableau)
 * [Word Clouds in Tableau: Quick & Easy](https://towardsdatascience.com/word-clouds-in-tableau-quick-easy-e71519cf507a)
