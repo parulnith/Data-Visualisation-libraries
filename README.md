@@ -33,6 +33,8 @@ This repository contains the files linked to the articles that I wrote on **Medi
 * [SQL with Tableau](https://medium.com/@parulnith/using-tableau-to-leverage-sql-287365f90d3?source=friends_link&sk=c5a1cfbf08d4a6e926b884ffedbf87b1)   
 * [Spreadsheets with Tableau](https://www.datacamp.com/community/tutorials/spreadsheets-tableau)
 * [Word Clouds in Tableau: Quick & Easy](https://towardsdatascience.com/word-clouds-in-tableau-quick-easy-e71519cf507a)
+* [Quadrant Analysis with Tableau](https://www.datacamp.com/community/tutorials/quadrant-analysis-in-tableau)
+* [Cluster Analysis with Tableau](https://www.datacamp.com/community/tutorials/quadrant-analysis-in-tableau)
 ---
 
 ### PowerBI
